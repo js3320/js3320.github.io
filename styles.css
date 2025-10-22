@@ -39,6 +39,15 @@ h2 { margin-top: 36px; font-size: 1.6rem; }
 #pubs li { margin-bottom: 10px; }
 
 .footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 24px 20px; color: var(--muted); font-size: 0.95rem; }
+.card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  margin-bottom: 10px;
+}
+.tags { color: var(--muted); font-size: 0.95rem; }
 
 @media (max-width: 800px) {
   .hero { grid-template-columns: 1fr; }
