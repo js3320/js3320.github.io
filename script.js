@@ -2,8 +2,8 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Email obfuscation
-const user = 'js3320'; // change if needed
-const host = 'ic.ac.uk'; // change if needed
+const user = 'jiho.shin20';
+const host = 'imperial.ac.uk'
 const address = `${user}@${host}`;
 document.getElementById('email').setAttribute('href', `mailto:${address}`);
 document.getElementById('email').textContent = 'Email';
