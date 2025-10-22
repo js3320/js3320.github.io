@@ -1,33 +1,30 @@
 [
   {
-    "title": "CXR\u2013EHR Fusion for Sepsis/ARDS (ICU)",
-    "summary": "Multimodal representation learning using CXR embeddings + EHR features to predict outcomes and treatment response; explored PCA/t\u2011SNE, VAEs, CLIP\u2011style contrastive learning.",
-    "tags": [
-      "CXR",
-      "EHR",
-      "Multimodal",
-      "ICU"
-    ],
-    "link": "#"
+    "title": "Benchmarking CXR Foundation Models on MIMIC-CXR & NIH-CXR14",
+    "summary": "Compared MedImageInsight vs CXR-Foundation with a unified pipeline; established reproducible baselines for classification and clustering.",
+    "tags": ["CXR", "Embeddings", "Benchmark", "MIMIC", "NIH"],
+    "image": "assets/mfm_cxr_thumb.jpg",
+    "link": "files/neurlps_abtract_JihoShin.pdf"
   },
   {
-    "title": "Eczema Herpeticum Diagnosis",
-    "summary": "Custom CNN + traditional features with Grad\u2011CAM; improved data preprocessing and reproducibility; pipeline integrated into lab workflow.",
-    "tags": [
-      "Dermatology",
-      "CNN",
-      "Grad\u2011CAM"
-    ],
-    "link": "#"
+    "title": "Eczema Herpeticum Diagnosis — Undergraduate Project",
+    "summary": "Built an EH screening pipeline (InceptionV3 + custom CNN), explored GAN-augmented training, and evaluated on balanced/biased test sets.",
+    "tags": ["Dermatology", "CNN", "GAN", "Grad-CAM"],
+    "image": "assets/eh_undergrad_thumb.jpg",
+    "link": "files/2024_EH_undergrad_project.pdf"
   },
   {
-    "title": "RL for Oncology (Concept)",
-    "summary": "Personalised therapy scheduling via reinforcement learning with toxicity constraints and patient\u2011specific response models.",
-    "tags": [
-      "RL",
-      "Oncology",
-      "Personalised Medicine"
-    ],
-    "link": "#"
+    "title": "AI-assisted EH Diagnosis from Digital AD Images — UROP 2024 (Tanaka Lab)",
+    "summary": "Compared traditional feature extraction + VGG16 vs CNN end-to-end; documented methods, metrics, and Optuna-driven tuning.",
+    "tags": ["Dermatology", "Feature Extraction", "VGG16", "Optuna"],
+    "image": "assets/eh_urop_thumb.jpg",
+    "link": "files/2024_UROP_EH_report.pdf"
+  },
+  {
+    "title": "Conceptual Design of Extremity MRI Magnet Using MgB₂ — KSSC 2023 Poster",
+    "summary": "Low-field (0.5 T) extremity MRI magnet design; homogeneity, 5-gauss line, and current margin considered with MATLAB optimisation.",
+    "tags": ["MRI", "MgB₂", "Electromagnetics", "Poster"],
+    "image": "assets/icu_thumb.jpg",
+    "link": "files/2023_KSSC_Poster.pdf"
   }
 ]
