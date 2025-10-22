@@ -44,19 +44,19 @@ function el(tag, attrs={}, children=[]) {
   const projects = await loadJSON('projects.json') || [];
   const container = document.getElementById('projects');
   projects.forEach(p => {
-    const card = el('div', {class: 'card'}, [
-      el('h3', {}, [document.createTextNode(p.title)]),
+    const img = p.image ? el('img', { src: p.image, alt: p.title, class: 'card-img' }) : null;
+    const titleLink = p.link
+      ? el('a', { href: p.link, target: '_blank', rel: 'noopener' }, [document.createTextNode(p.title)])
+      : document.createTextNode(p.title);
+
+    const card = el('div', { class: 'card' }, [
+      img || el('span'),
+      el('h3', {}, [titleLink]),
       el('p', {}, [document.createTextNode(p.summary)]),
-      el('p', {}, [document.createTextNode(p.tags.join(' · '))]),
-      p.link ? el('p', {html: `<a href="${p.link}" target="_blank" rel="noopener">Learn more</a>`}) : el('span')
+      p.tags && p.tags.length ? el('p', { class: 'tags' }, [document.createTextNode(p.tags.join(' · '))]) : el('span'),
+      p.link ? el('p', { html: `<a href="${p.link}" target="_blank" rel="noopener">View project file</a>` }) : el('span')
     ]);
     container.appendChild(card);
   });
 
-  const pubs = await loadJSON('pubs.json') || [];
-  const pubsEl = document.getElementById('pubs');
-  pubs.forEach((p, i) => {
-    const li = el('li', {html: `<strong>${p.title}</strong> — ${p.authors} (${p.year}). ${p.venue}${p.link ? ` · <a href="${p.link}" target="_blank" rel="noopener">link</a>` : ''}`});
-    pubsEl.appendChild(li);
-  });
 })();
