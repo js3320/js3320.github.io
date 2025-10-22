@@ -66,5 +66,14 @@ function el(tag, attrs={}, children=[]) {
     });
     talksEl.appendChild(li);
   });
+  const workshops = await loadJSON('workshops.json') || [];
+  const workshopsEl = document.getElementById('workshops-list');
+  workshops.forEach(w => {
+    const li = el('li', {
+      html: `<strong>${w.title}</strong> — ${w.event} (${w.year})<br>${w.summary}${w.link ? ` · <a href="${w.link}" target="_blank" rel="noopener">View abstract</a>` : ''}`
+    });
+    workshopsEl.appendChild(li);
+  });
+
 
 })();
