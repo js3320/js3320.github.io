@@ -1,1 +1,9 @@
-
+[
+  {
+    "title": "Benchmarking CXR Foundation Embeddings for Classification and Clustering",
+    "event": "MedeurIPS Workshop at NeurIPS 2025",
+    "year": "2025",
+    "summary": "Abstract submission on large-scale benchmarking of CXR foundation models (MedImageInsight, CXR-Foundation) for disease classification and patient representation clustering.",
+    "link": "files/neurlps_abtract_JihoShin.pdf"
+  }
+]
