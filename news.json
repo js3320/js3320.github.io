@@ -1,14 +1,8 @@
 [
-  {
-    "date": "2025-10-20",
-    "text": "Submitted NeurIPS workshop abstract on benchmarking CXR foundation models."
-  },
-  {
-    "date": "2025-07-24",
-    "text": "Started summer benchmarking study on MIMIC\u2011CXR & NIH\u2011CXR14 (embedding + clustering)."
-  },
-  {
-    "date": "2025-06-02",
-    "text": "Launched EH image classification pipeline with Grad\u2011CAM interpretability."
-  }
+  {"date":"2025-10-24","text":"Presented work on multimodal ICU patient state representation at the Johns Hopkins–Korea Biotechnology Innovation Symposium."},
+  {"date":"2025-10-01","text":"Began Master’s thesis on CXR foundation embeddings + clinical data fusion; benchmarking across MIMIC-CXR and NIH-CXR14 with >0.90 mean AUROC on thoracic labels."},
+  {"date":"2024-06-28","text":"Led undergraduate project on Eczema Herpeticum; mentored a team with no prior ML experience and integrated optimised modules into EczemaNet with highest diagnostic accuracy of 98%."},
+  {"date":"2024-09-28","text":"Completed Tanaka Lab UROP project on EH diagnosis: hybrid VGG16 + hand-crafted features with Grad-CAM interpretability with highest accuracy 95%."},
+  {"date":"2024-08-16","text":"Completed ICU mortality prediction study at Charing Cross Hospital by integrating CXR embeddings and EHR with LightGBM (benchmark leader) and dimensionality reduction (PCA, t-SNE) with highest AUROC of 0.79"},
+  {"date":"2023-09-25","text":"Presented ‘Conceptual design of extremity MRI magnet using MgB2’ at KSSC."}
 ]
