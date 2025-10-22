@@ -50,18 +50,19 @@ h2 { margin-top: 36px; font-size: 1.6rem; }
 .tags { color: var(--muted); font-size: 0.95rem; }
 
 .outside-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 20px;
 }
 
 .outside-item img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: auto;              /* removes cropping */
+  object-fit: contain;       /* ensures full image shows */
   border-radius: 12px;
   border: 1px solid var(--border);
+  display: block;
 }
 
 .caption {
@@ -70,6 +71,7 @@ h2 { margin-top: 36px; font-size: 1.6rem; }
   color: var(--muted);
   margin-top: 6px;
 }
+
 
 @media (max-width: 800px) {
   .hero { grid-template-columns: 1fr; }
