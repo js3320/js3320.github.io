@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jiho Shin — Portfolio</title>
+  <meta name="description" content="Jiho Shin — Biomedical Engineering (Imperial College London). AI in healthcare, medical imaging, multimodal learning.">
+  <meta property="og:title" content="Jiho Shin — Portfolio">
+  <meta property="og:description" content="AI in healthcare • Medical imaging • Multimodal learning">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.png">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preload" href="assets/profile.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container hero">
+    <div class="hero-text">
+      <h1>Jiho Shin</h1>
+      <p class="subtitle">Biomedical Engineering @ Imperial College London · AI for Healthcare</p>
+      <p class="tagline">Multimodal medical imaging, CXR–EHR fusion for sepsis/ARDS, and reinforcement learning for oncology.</p>
+      <div class="cta">
+        <a class="button" href="#research">Research</a>
+        <a class="button ghost" href="cv/Jiho_Shin_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+      </div>
+      <ul class="social">
+        <li><a href="#" id="email">Email</a></li>
+        <li><a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+    <div class="hero-photo">
+      <img src="assets/profile.jpg" alt="Profile photo of Jiho Shin">
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Final-year MEng student passionate about building reliable AI systems for healthcare. 
+        Experience includes ICU sepsis prediction with CXR+EHR fusion, Eczema Herpeticum image classification with model interpretability (Grad-CAM), and leadership in AI communities.
+      </p>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news-list" id="news-list">
+        <!-- Edit news.json to update items -->
+      </ul>
+    </section>
+
+    <section id="research">
+      <h2>Selected Projects</h2>
+      <div class="cards" id="projects">
+        <!-- Filled by projects.json -->
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications & Preprints</h2>
+      <ol id="pubs">
+        <!-- Filled by pubs.json -->
+      </ol>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching & Leadership</h2>
+      <ul>
+        <li>Undergraduate Teaching Assistant — Electronic Circuits (op-amps, SPICE simulation)</li>
+        <li>Squad Leader, Korean military — led 8-person team; accountability-focused leadership</li>
+        <li>Co‑organising AI community workshops and project sprints</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <span id="email-inline"></span></p>
+      <p>Office/Location: London, UK · Available for PhD applications 2026</p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Jiho Shin · Built with plain HTML/CSS · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
