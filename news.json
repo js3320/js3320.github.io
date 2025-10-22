@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2025-10-20",
+    "text": "Submitted NeurIPS workshop abstract on benchmarking CXR foundation models."
+  },
+  {
+    "date": "2025-07-24",
+    "text": "Started summer benchmarking study on MIMIC\u2011CXR & NIH\u2011CXR14 (embedding + clustering)."
+  },
+  {
+    "date": "2025-06-02",
+    "text": "Launched EH image classification pipeline with Grad\u2011CAM interpretability."
+  }
+]

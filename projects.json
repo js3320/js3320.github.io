@@ -1,0 +1,33 @@
+[
+  {
+    "title": "CXR\u2013EHR Fusion for Sepsis/ARDS (ICU)",
+    "summary": "Multimodal representation learning using CXR embeddings + EHR features to predict outcomes and treatment response; explored PCA/t\u2011SNE, VAEs, CLIP\u2011style contrastive learning.",
+    "tags": [
+      "CXR",
+      "EHR",
+      "Multimodal",
+      "ICU"
+    ],
+    "link": "#"
+  },
+  {
+    "title": "Eczema Herpeticum Diagnosis",
+    "summary": "Custom CNN + traditional features with Grad\u2011CAM; improved data preprocessing and reproducibility; pipeline integrated into lab workflow.",
+    "tags": [
+      "Dermatology",
+      "CNN",
+      "Grad\u2011CAM"
+    ],
+    "link": "#"
+  },
+  {
+    "title": "RL for Oncology (Concept)",
+    "summary": "Personalised therapy scheduling via reinforcement learning with toxicity constraints and patient\u2011specific response models.",
+    "tags": [
+      "RL",
+      "Oncology",
+      "Personalised Medicine"
+    ],
+    "link": "#"
+  }
+]

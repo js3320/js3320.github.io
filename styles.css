@@ -1,0 +1,46 @@
+/* Minimal, clean academic style */
+:root {
+  --fg: #1a1a1a;
+  --muted: #666;
+  --bg: #ffffff;
+  --accent: #003eaa;
+  --card: #f6f8fc;
+  --border: #e6e9f2;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Helvetica, Arial, sans-serif; line-height: 1.6; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+
+.hero { display: grid; grid-template-columns: 2fr 1fr; gap: 28px; padding: 64px 20px 32px; align-items: center; }
+.hero h1 { font-size: 2.2rem; margin: 0 0 8px; }
+.subtitle { color: var(--muted); margin: 0 0 8px; }
+.tagline { margin-top: 6px; }
+.cta { margin: 16px 0 8px; display: flex; gap: 12px; flex-wrap: wrap; }
+.button { display: inline-block; padding: 10px 14px; border-radius: 10px; background: var(--accent); color: white; font-weight: 600; border: 1px solid var(--accent); }
+.button.ghost { background: transparent; color: var(--accent); }
+.button:hover { opacity: 0.9; text-decoration: none; }
+
+.hero-photo img { width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+
+h2 { margin-top: 36px; font-size: 1.6rem; }
+.news-list { list-style: none; padding: 0; margin: 0; }
+.news-list li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.news-list time { color: var(--muted); margin-right: 8px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 12px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+.card h3 { margin: 0 0 8px; font-size: 1.1rem; }
+.card p { margin: 0; }
+
+#pubs { padding-left: 20px; }
+#pubs li { margin-bottom: 10px; }
+
+.footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 24px 20px; color: var(--muted); font-size: 0.95rem; }
+
+@media (max-width: 800px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-photo { order: -1; }
+}
