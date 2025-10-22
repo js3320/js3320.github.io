@@ -58,5 +58,13 @@ function el(tag, attrs={}, children=[]) {
     ]);
     container.appendChild(card);
   });
+  const talks = await loadJSON('talks.json') || [];
+  const talksEl = document.getElementById('talks');
+  talks.forEach(t => {
+    const li = el('li', {
+      html: `<strong>${t.title}</strong> — ${t.event} (${t.year})<br>${t.summary}${t.link ? ` · <a href="${t.link}" target="_blank" rel="noopener">View poster</a>` : ''}`
+    });
+    talksEl.appendChild(li);
+  });
 
 })();
