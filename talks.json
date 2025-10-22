@@ -1,1 +1,17 @@
+[
+  {
+    "title": "Benchmarking CXR Foundation Models for Clinical Imaging",
+    "event": "Johns Hopkins – Korea Biotechnology Innovation Symposium",
+    "year": "2025",
+    "summary": "Presented results on multimodal ICU patient state representation using CXR embeddings and EHR data; highlighted translational potential for precision healthcare.",
+    "link": "files/neurlps_abtract_JihoShin.pdf"
+  },
+  {
+    "title": "Conceptual Design of Extremity MRI Magnet Using MgB₂",
+    "event": "Korean Society of Superconductivity and Cryogenics (KSSC)",
+    "year": "2023",
+    "summary": "Poster presentation on low-field MRI magnet optimization using MgB₂, focusing on field homogeneity and cryogenic efficiency.",
+    "link": "files/2023_KSSC_Poster.pdf"
+  }
+]
 
