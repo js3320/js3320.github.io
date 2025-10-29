@@ -3,16 +3,17 @@
     "title": "Multimodal Clinical Imaging Representation",
     "event": "Johns Hopkins – Korea Biotechnology Innovation Symposium",
     "year": "2025",
-    "summary": "Presented ongoing results on multimodal ICU patient state representation using CXR embeddings and EHR fusion, focusing on interpretability and translational impact.",
-    "link": "files/Jiho_Shin_JHU_Korea.pdf"
+    "summary": "Presented ongoing results on multimodal ICU patient state representation using CXR embeddings and EHR fusion.",
+    "type": "presentation",
+    "link": "files/JHU_presentation.pdf"
   },
   {
     "title": "Conceptual Design of Extremity MRI Magnet Using MgB₂",
     "event": "Korean Society of Superconductivity and Cryogenics (KSSC)",
     "year": "2023",
-    "summary": "Poster presentation on low-field MRI magnet optimisation using MgB₂, highlighting magnetic homogeneity and cryogenic efficiency.",
+    "summary": "Poster presentation on low-field MRI magnet optimisation using MgB₂.",
+    "type": "poster",
     "link": "files/2023_KSSC_Poster.pdf"
   }
 ]
-
 
