@@ -61,11 +61,15 @@ function el(tag, attrs={}, children=[]) {
   const talks = await loadJSON('talks.json') || [];
   const talksEl = document.getElementById('talks');
   talks.forEach(t => {
+    const label = t.type === 'presentation' ? 'View presentation'
+                 : t.type === 'abstract'     ? 'View abstract'
+                 : 'View poster';
     const li = el('li', {
-      html: `<strong>${t.title}</strong> — ${t.event} (${t.year})<br>${t.summary}${t.link ? ` · <a href="${t.link}" target="_blank" rel="noopener">View poster</a>` : ''}`
+      html: `<strong>${t.title}</strong> — ${t.event} (${t.year})<br>${t.summary}${t.link ? ` · <a href="${t.link}" target="_blank" rel="noopener">${label}</a>` : ''}`
     });
     talksEl.appendChild(li);
   });
+
   const workshops = await loadJSON('workshops.json') || [];
   const workshopsEl = document.getElementById('workshops-list');
   workshops.forEach(w => {
