@@ -1,1 +1,1 @@
-# Personal Academic Portfolio — Jiho Shin
+# Academic Portfolio — Jiho Shin
